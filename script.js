@@ -29,6 +29,8 @@ function generateMock() {
 
     setResultContainerVisibility(true);
 
+    inputElem.value = '';
+
     console.log(result);
 }
 
